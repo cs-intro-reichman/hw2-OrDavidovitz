@@ -54,7 +54,7 @@ public class Collatz {
 						}
 
 					}
-					System.out.print(" (" + counter+")");
+					System.out.print("(" + counter+")");
 					System.out.println();
 				}
 		}
