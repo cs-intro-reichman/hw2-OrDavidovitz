@@ -4,7 +4,7 @@ public class Collatz {
 	    int N = Integer.parseInt(args[0]);
 		int F ;
 		String str = args[1];	
-		if (str.equals("V"))
+		if (str.equals("v"))
 		{
 				for (int i = 1; i <= N; i++)
 				{
