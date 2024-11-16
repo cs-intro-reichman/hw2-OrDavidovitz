@@ -19,17 +19,17 @@ public class Collatz {
 							if (F%2==0)
 							{
 								System.out.print(F + " ");
-								counter+=1;
+								counter++;
 								F/=2;
 							}
 							else
 							{
 								System.out.print(F + " ");
-								counter+=1;
+								counter++;
 								F=F*3+1;
 							}
 						}
-						System.err.print(F + " ");
+						System.out.print(F + " ");
 						counter++;
 					}	
 					else
@@ -47,7 +47,7 @@ public class Collatz {
 							}
 							else
 							{
-								F=F*3+1;
+								F=(F*3)+1;
 								System.out.print(F + " ");
 								counter++;
 							}
