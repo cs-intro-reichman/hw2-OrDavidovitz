@@ -57,13 +57,7 @@ public class Collatz {
 					System.out.print(" (" + counter+")");
 					System.out.println();
 				}
+		}
 				System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
-		}
-		else if (str.equals("C"))
-		{
-			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
-		}
-
-				
 			}
 		}
